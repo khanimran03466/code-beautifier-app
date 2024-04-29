@@ -12,8 +12,8 @@ import HtmlMinifyBtn from "./components/button-comp/HtmlMinifyBtn.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App /> }> 
-      <Route path="/" element={<SchemaFormatter />} />
-      <Route path="css-minifyer/" element={<CssMinifyBtn />} />
+      <Route path="/" element={<CssMinifyBtn />} />
+      <Route path="/schema-formatter" element={<SchemaFormatter />} />
       <Route path="js-minifier/" element={<JsMinifierBtn  />} />
       <Route path="html-formatter/" element={<HtmlFormatterBtn />} />
       <Route path="html-minify/" element={<HtmlMinifyBtn />} />
