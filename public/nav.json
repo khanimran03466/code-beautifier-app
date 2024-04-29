@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "url": "/",
+    "btnName": "Schema Formatter"
+  },
+  {
+    "id": "2",
+    "url": "/css-minifyer/",
+    "btnName": "CSS Minifier"
+  },
+  {
+    "id": "3",
+    "url": "/js-minifier/",
+    "btnName": "JS Minifier"
+  },
+  {
+    "id": "4",
+    "url": "/html-formatter/",
+    "btnName": "HTML Formatter"
+  },
+  {
+    "id": "5",
+    "url": "/html-minify/",
+    "btnName": "HTML Minify"
+  }
+]
