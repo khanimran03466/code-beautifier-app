@@ -11,7 +11,7 @@ const OutputArea = () => {
       <textarea
         value={output}
         className="large-area large-area--output"
-        placeholder="Output"
+        placeholder="Output" 
         readOnly
       />
     </div>
