@@ -6,7 +6,7 @@ const HtmlMinifyBtn = () => {
 
   const handlerHtmlMinify = () => {
     const minified = input
-      .replace(/<!--[\s\S]*?-->/g, "")
+      // .replace(/<!--[\s\S]*?-->/g, "")
       // Remove CSS comments
       .replace(/\/\*[\s\S]*?\*\//g, "")
       // Remove whitespace between tags
